@@ -4,9 +4,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    margin-top: 92px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 92px 24px;
     width: 1052px;
     height: 105px;
     background-color: rgb(255, 255, 255);
@@ -59,23 +57,33 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 25%;
-    margin-top: 96px;
+    width : 100%; 
+    height: 757px;
     background-image: url(/images/cover.jpg) ;
     background-size: cover;
-    background-position: -137px;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width : 100%; 
+    height: 100%;
+    background-color: black;
+    opacity: 60%;
 }
 
 .cover__title {
     box-sizing: border-box;
-    width: 1100px;
+    width: 100%;
     height: 355px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-transform: uppercase;
     font-size: 100px;
     font-weight: 700;
@@ -117,4 +125,33 @@ header {
 .letter-spacing-n {
     position: absolute;
     margin-left: -135px;
+}
+
+.cover__description {
+    position: absolute; 
+    bottom: 0;          
+    left: 0;           
+    width: 100%;       
+    display: flex;
+    align-items: center; 
+    margin-left: 78px;
+    margin-bottom: 51px;
+    color: white;   
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.cover__description-text {
+    word-spacing: 18.7px;
+}
+
+.bet-button {
+    display: flex;
+    margin-left: 79px;
+    border: 1px solid;
+    width: 256px;
+    height: 51px;
+    justify-content: center; 
+    align-items: center;
 }
