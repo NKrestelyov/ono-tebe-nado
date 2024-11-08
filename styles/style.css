@@ -321,6 +321,7 @@ header {
 
 .footer__menu {
   grid-column: 2 / 2;
+
 }
 
 .footer__menu-list {
@@ -331,6 +332,11 @@ header {
   font-size: 18px;
   text-underline-offset: 4px;
   list-style: none;
+  text-decoration: underline;
+}
+
+.footer__links-list-item_no-underline {
+  text-decoration: none;
 }
 
 .footer__social-list {
