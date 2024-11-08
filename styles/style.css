@@ -195,6 +195,8 @@ header {
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
     margin: 51px 40px auto;
     color: white;
 }
