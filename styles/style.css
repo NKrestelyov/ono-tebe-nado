@@ -300,3 +300,56 @@ header {
     margin-left: 72px;
     margin-top: 25px;
 }
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 180px 50px 88px 50px;
+    width: 1000px;
+    height: 98px;
+    
+}
+
+.address {
+    grid-column: 1 / 1;
+}   
+
+.footer__address {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24.6px;
+    text-underline-offset: 4px;
+    list-style: none;
+}
+
+.footer__menu {
+    grid-column: 2 / 2;
+}
+
+
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-underline-offset: 4px;
+    list-style: none;
+}
+
+.footer__social-list {
+    grid-column: 3 / 3;
+    display: flex;
+    margin-left: 100px;
+    gap: 48px;
+}
+
+.footer__social-link {
+    
+}  
+
+.footer__social-icon {
+    flex-direction: row;
+    width: 48px;
+    height: 48px;
+}
