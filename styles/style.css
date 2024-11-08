@@ -321,7 +321,8 @@ header {
 
 .footer__menu {
   grid-column: 2 / 2;
-
+  margin-left: 11px;
+  margin-top: 2px;
 }
 
 .footer__menu-list {
