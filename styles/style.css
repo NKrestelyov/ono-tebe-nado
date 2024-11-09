@@ -264,9 +264,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 145px 50px 88px 50px;
   width: 1000px;
   min-height: 98px;
+  margin-top: 145px;
+  margin-left: 50px;
 }
 
 .footer__menu {
