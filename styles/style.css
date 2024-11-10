@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-items: center;
-  margin: 73px auto 96px 24px;
+  margin: 74px auto 96px 24px;
   width: 1052px;
   background-color: rgb(255, 255, 255);
   font-size: 18px;
@@ -273,8 +273,9 @@ header {
   justify-content: space-between;
   width: 1000px;
   min-height: 98px;
-  margin-top: 178px;
+  margin-top: 180px;
   margin-left: 50px;
+  margin-bottom: 85px;
 }
 
 .footer__menu {
