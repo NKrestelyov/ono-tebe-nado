@@ -3,11 +3,10 @@ header {
   flex-direction: row;
   align-items: center;
   justify-items: center;
-  margin: 74px auto 96px 24px;
+  margin: 79px auto 96px 24px;
   width: 1052px;
   background-color: rgb(255, 255, 255);
   font-size: 18px;
-  padding-top: 6px;
 }
 
 .header__menu {
@@ -275,7 +274,7 @@ header {
   min-height: 98px;
   margin-top: 180px;
   margin-left: 50px;
-  margin-bottom: 85px;
+  margin-bottom: 86px;
 }
 
 .footer__menu {
