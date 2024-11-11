@@ -91,21 +91,21 @@ header {
   font-size: 100px;
   font-weight: 700;
   color: white;
-  min-height: 355px;
+  margin-left: 50px;
   margin-top: 160px;
 }
 
 .aligned-text {
   display: flex;
   justify-content: start;
-  margin-top: 2px;
-  margin-left: 50px;
+  margin-top: 3px;
   margin-bottom: 10px;
 }
 
 .aligned-text_center {
   display: flex;
   justify-content: center;
+  margin-right: 50px;
 }
 
 .aligned-text_right {
@@ -113,6 +113,7 @@ header {
   justify-content: end;
   align-items: center;
   margin-right: 20px;
+  margin-top: 3px;
 }
 
 .letter-spacing {
@@ -124,7 +125,7 @@ header {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 127px;
+  margin-top: 125px;
   color: white;
   text-transform: uppercase;
   font-size: 22px;
@@ -168,7 +169,6 @@ header {
   grid-template-rows: 3 1fr;
   margin: 179px 24px 146px 24px;
   width: 1052px;
-  min-height: 692px;
   column-gap: 25px;
 }
 
@@ -176,7 +176,7 @@ header {
   grid-column: 1 / 4;
   font-size: 40px;
   text-transform: uppercase;
-  margin: auto auto 27px 40px;
+  margin: auto auto 25px 40px;
 }
 
 .footer__card {
@@ -209,7 +209,7 @@ header {
 
 .lots__card {
   display: flex;
-  max-height: 563px;
+  flex-wrap: wrap;
   width: 334px;
   background-size: cover;
   background-position: center;
@@ -233,7 +233,6 @@ header {
   grid-column: 2 1fr;
   grid-row: 3 1fr;
   width: 1052px;
-  min-height: 595px;
 }
 
 .about__logo {
@@ -278,7 +277,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 1000px;
-  min-height: 98px;
   margin-top: 155px;
   margin-left: 50px;
   padding-bottom: 88px;
