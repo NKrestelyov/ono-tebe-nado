@@ -92,8 +92,7 @@ header {
   font-size: 100px;
   font-weight: 700;
   color: white;
-  margin-left: 50px;
-  margin-top: 160px;
+  margin: 160px 50px auto;
 }
 
 .aligned-text {
@@ -106,19 +105,20 @@ header {
 .aligned-text_center {
   display: flex;
   justify-content: center;
-  margin-right: 50px;
 }
 
 .aligned-text_right {
   display: flex;
   justify-content: end;
-  align-items: center;
-  margin-right: 20px;
   margin-top: 3px;
 }
 
 .letter-spacing {
   letter-spacing: 60px;
+}
+
+.letter-spacing-none {
+  letter-spacing: normal;
 }
 
 .cover__description {
@@ -163,14 +163,14 @@ header {
   grid-template-rows: 3 1fr;
   margin: 179px 24px 146px 24px;
   width: 1052px;
-  column-gap: 25px;
+  gap: 25px;
 }
 
 .lots__heading {
   grid-column: 1 / 4;
   font-size: 40px;
   text-transform: uppercase;
-  margin: auto auto 25px 40px;
+  margin-left: 40px;
 }
 
 .footer__card {
@@ -178,7 +178,8 @@ header {
   font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 5px;
-  margin: 30px auto auto 40px;
+  margin-top: 6px;
+  margin-left: 40px;
 }
 
 .text_space-between {
@@ -246,7 +247,7 @@ header {
   height: 240px;
   border: 120px solid black;
   border-radius: 100%;
-  margin-top: 38px;
+  margin-top: 36px;
   margin-left: 47px;
 }
 
@@ -279,7 +280,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 1000px;
-  margin-top: 168px;
+  margin-top: 170px;
   margin-left: 50px;
   padding-bottom: 88px;
 }
