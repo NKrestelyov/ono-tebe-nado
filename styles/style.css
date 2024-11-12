@@ -212,6 +212,7 @@ header {
 .lots__card {
   display: flex;
   flex-wrap: wrap;
+  min-height: 563px;
   width: 334px;
   background-size: cover;
   background-position: center;
